@@ -269,6 +269,12 @@ fieldset {
     color: white;
  
   }
+
+  .fadeWord {
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+    font-size: 25px;
+  }
 legend {
   display: block;
   width: 100%;
